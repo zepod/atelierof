@@ -1,8 +1,8 @@
 {
     "title": "Creative",
-    "name": "startbootstrap-creative",
-    "version": "5.0.3",
-    "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+    "name": "atelierof",
+    "version": "1.0.0",
+    "description": "Single screen website of Atelierof",
     "keywords": [
         "css",
         "sass",
@@ -17,14 +17,11 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "zzepod",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
-    },
+    "repository": "https://github.com/zepod/atelierof.git",
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.7.0",
         "bootstrap": "4.2.1",
@@ -35,6 +32,9 @@
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
+        "eslint": "^5.13.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0",
         "gulp": "4.0.0",
         "gulp-autoprefixer": "6.0.0",
         "gulp-clean-css": "4.0.0",
@@ -43,5 +43,6 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.2",
         "gulp-uglify": "3.0.1"
-    }
+    },
+    "main": "js/index.js"
 }
