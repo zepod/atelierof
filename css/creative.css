@@ -4,11 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
-body,
-html {
-  width: 100%;
-  height: 100%;
-  scroll-behavior: smooth;
+@keyframes appear-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 body {
@@ -18,7 +16,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #B40E5A;
 }
 
 hr.light {
@@ -26,26 +24,17 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #B40E5A;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #B40E5A;
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: #B40E5A !important;
 }
 
 .bg-dark {
@@ -93,7 +82,6 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -102,7 +90,6 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: black;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -119,12 +106,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #B40E5A;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: #B40E5A !important;
   background-color: transparent;
 }
 
@@ -153,7 +140,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: #B40E5A;
   }
 }
 
@@ -222,7 +209,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(180,14,90, 0.8);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -239,7 +226,6 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -270,7 +256,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #F05F40 !important;
+  color: #B40E5A !important;
 }
 
 .btn {
@@ -278,7 +264,6 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .btn-xl {
@@ -286,13 +271,12 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #B40E5A;
+  border-color: #B40E5A;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: rgba(180,14,90, 0.8);
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -339,11 +323,12 @@ section {
 
 .howitworks-icon {
   width: 10rem;
+  height: 10rem;
 }
 
 .howitworks-title {
   font-size: 2rem;
-  border-right: 2px solid #F05F40;
+  border-right: 2px solid #B40E5A;
   height: 20rem;
   display: flex;
   align-items: center;
@@ -414,5 +399,131 @@ section {
 }
 
 .contact-images img {
+  transition: all ease-in-out 0.3s;
   width: 8rem;
+}
+
+.contact-images img:hover {
+  transform: scale(1.1);
+}
+
+.yourplace-modal {
+  animation-name: appear-in;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  background: #1c7430;
+  top: 5%;
+  left: 5%;
+  z-index: 1031;
+  display: none;
+}
+
+#module-obyvak {
+  background-image: url("../img/obyvak.jpg");
+  background-size: cover;
+}
+
+#module-lekce {
+  background-image: url("../img/lessons.jpg");
+  background-size: cover;
+}
+
+#module-off {
+  background-image: url("../img/off.jpg");
+  background-size: cover;
+}
+
+#module-road {
+  background-image: url("../img/holki.jpg");
+  background-size: cover;
+}
+
+#module-senior {
+  background-image: url("../img/granny.jpg");
+  background-size: cover;
+}
+
+#module-events {
+  background-image: url("../img/events.jpg");
+  background-size: cover;
+}
+
+.yourplace-modal > div {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0.5;
+  background-color: white;
+  pointer-events: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yourplace-modal img {
+  position: absolute;
+  right: 5rem;
+  top: 3rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.yourplace-modal img:hover {
+  transform: rotateZ(90deg);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.yourplace-modal p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.1em;
+  margin: 0 18rem;
+  line-height: 7rem;
+  font-weight: bolder;
+}
+
+#gay-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  background-color: black;
+  z-index: 1030;
+  display: none;
+}
+
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif; !important;
+  letter-spacing: 1px;
+}
+
+#facebook {
+  background-color: #4b86fb;
+  border-radius: 1000px;
+}
+
+
+#instagram {
+  background-color: #ffcc66;
+  border-radius: 1000px;
+}
+
+#mail {
+  background-color: #b40e5a;
+  border-radius: 1000px;
 }
