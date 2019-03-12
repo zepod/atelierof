@@ -12,12 +12,15 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/logo-min.png" />
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
@@ -28,11 +31,18 @@
 </head>
 
 <body id="page-top">
-
+  <div class="mobile">
+    <img src="img/logo.png">
+    <p>Tato stránka zatím bohužel nepodporuje mobilní zařízení. Navštivte ji prosím z počítače.</p>
+  </div>
+  <div class="no-mobile">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Atelierof</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        Atelierof
+        <img src="img/logo-small.svg" class="brand-logo">
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,7 +55,7 @@
             <a class="nav-link js-scroll-trigger" href="#services">Jak to funguje</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Tvoje místo</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Vaše místo</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Spojme se</a>
@@ -63,11 +73,10 @@
         </div>
         <div class="col-lg-8 mx-auto">
           <p class="text-unfaded landing-text">
-            Komunitní zázemí pro rozvoj uměleckých vášní pro mladé, dospělé, i seniory.
-            Jeho cílem je nabídnout medicínu na samotu, stres a těžké dny. Váš atelier pro splnění snů - Atelierof vás rozzáří.
+            Komunitní zázemí pro rozvoj uměleckých vášní pro mladé, dospělé i seniory. Jeho cílem je nabídnout medicínu na samotu, stres, těžké dny, ale i na splněné sny! Atelierof vás rozzáří.
           </p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#timeline">
-            Poznat Atelierof
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">
+            Vytvořit Atelierof
           </a>
         </div>
       </div>
@@ -109,7 +118,6 @@
     </div>
     <div class="tl-content">
       <h1 class="f3 text--accent ttu"></h1>
-
     </div>
   </div>
 </section>
@@ -127,18 +135,18 @@
         <img class="howitworks-icon" src="img/care.png" />
       </div>
       <div class="howitworks-columns">
-        <p class="howitworks-description">Podpořte lidi kolem vás</p>
-        <p class="howitworks-description">Měsíční členství občana Atelierofu</p>
         <p class="howitworks-description">První návštěva</p>
+        <p class="howitworks-description">Měsíční členství občana Atelierofu</p>
+        <p class="howitworks-description">Podpořte lidi kolem vás</p>
       </div>
       </div>
     </div>
   </section>
 
-  <section class="p-0" id="portfolio">
-    <div class="container-fluid p-0">
+  <section id="portfolio">
+    <div id="portfolio-container">
       <div class="places row no-gutters popup-gallery">
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <div class="portfolio-box" onclick="showYourPlaceModal('module-obyvak')">
             <img class="img-fluid" src="img/obyvak.jpg" alt="">
             <div class="portfolio-box-caption">
@@ -153,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <div class="portfolio-box" onclick="showYourPlaceModal('module-lekce')">
             <img class="img-fluid" src="img/lessons.jpg" alt="">
             <div class="portfolio-box-caption">
@@ -168,13 +176,12 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <div class="portfolio-box" onclick="showYourPlaceModal('module-off')">
             <img class="img-fluid" src="img/off.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
-
                 </div>
                 <div class="project-name">
                   AtelierOFF
@@ -183,37 +190,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="portfolio-box" onclick="showYourPlaceModal('module-senior')">
-            <img class="img-fluid" src="img/granny.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Atelierof
-                </div>
-                <div class="project-name">
-                  Babičky a dědy
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="portfolio-box" onclick="showYourPlaceModal('module-events')">
-            <img class="img-fluid" src="img/events.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Atelier of
-                </div>
-                <div class="project-name">
-                  Události
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <div class="portfolio-box" onclick="showYourPlaceModal('module-road')">
             <img class="img-fluid" src="img/holki.jpg" alt="">
             <div class="portfolio-box-caption">
@@ -229,15 +206,34 @@
           </div>
         </div>
       </div>
+      <div class="places-senior portfolio-box" onclick="showYourPlaceModal('module-senior')">
+        <div class="senior-overlay">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Atelierof
+              </div>
+              <div class="project-name">
+                Babičky a dědy
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-
+  <div class="zarit">
+    <h1>„Nechte Atelierof rozzářit<br>a on za to pak rozzáří vás"<h2>
+  </div>
   <section id="contact">
     <div class="contact-container">
-      <div class="contect-photo"></div>
+      <img src="./img/contact.jpg" class="contect-photo"/>
       <div class="contect-content">
         <h1>Spojme se!</h1>
         <p>Atelierof je především o vás. Proto nás ze všeho nejvíce zajímají právě vaše příběhy, nápady a přání. Podělte se o ně s námi!</p>
+        <div class="patreon">
+
+        </div>
         <div class="contact-images">
           <a href="https://facebook.com/atelierof"><img id="facebook" src="img/facebook.png"></a>
           <a href="https://www.instagram.com/atelierof.cz"><img id="instagram" src="img/instagram.png"></a>
@@ -288,7 +284,7 @@
     <img src="./img/close.png" onclick="hideYourPlaceModals()"/>
     <div>
       <p>
-        Každé dopoledne se věnujeme starším lidem. Malujeme, zpíváme a na stará kolena nežíváme ale žijeme.
+        Každé dopoledne se věnujeme starším lidem. Malujeme, zpíváme a na stará kolena nedožíváme ale žijeme.
       </p>
     </div>
   </div>
@@ -316,7 +312,7 @@
   <!-- Custom scripts for this template -->
   <!-- <script src="js/creative.js"></script> -->
   <script src="js/uncreative.js"></script>
-
+  </div>
 </body>
 
 </html>

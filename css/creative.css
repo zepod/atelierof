@@ -11,12 +11,13 @@
 
 body {
   font-family: 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
+  letter-spacing: 3px !important;
 }
 
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #B40E5A;
+  border-color: #FFCC66;
 }
 
 hr.light {
@@ -24,17 +25,17 @@ hr.light {
 }
 
 a {
-  color: #B40E5A;
+  color: #FFCC66;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #B40E5A;
+  color: #FFCC66;
 }
 
 .bg-primary {
-  background-color: #B40E5A !important;
+  background-color: #FFCC66 !important;
 }
 
 .bg-dark {
@@ -44,9 +45,7 @@ a:hover {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
-.text-unfaded {
-  color: rgba(0, 0, 0, 0.7);
-}
+
 
 .section-heading {
   margin-top: 0;
@@ -80,38 +79,39 @@ img::-moz-selection {
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  background-color: rgba(19,51,55, 0.7);
 }
 
 #mainNav .navbar-brand {
-  font-weight: 700;
   text-transform: uppercase;
-  color: black;
+  color: white;
+  position: relative;
+  letter-spacing: 6px;
+  border-bottom: 2px solid white;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  font-size: 1rem;
 }
 
-#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: black;
-}
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
-  font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  letter-spacing: 4px;
+  color: white;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #B40E5A;
+  color: #FFCC66;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #B40E5A !important;
+  color: #FFCC66 !important;
   background-color: transparent;
 }
 
@@ -129,10 +129,10 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: black;
+    color: white;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: black;
+    color: white;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -140,14 +140,14 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #B40E5A;
+    color: #FFCC66;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.svg");
+  background-image: url("../img/POzadi kytky_modre pozadi.svg");
   background-position: center center;
   background-size: cover;
 }
@@ -256,7 +256,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #B40E5A !important;
+  color: #FFCC66 !important;
 }
 
 .btn {
@@ -271,8 +271,9 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #B40E5A;
-  border-color: #B40E5A;
+  background-color: #FFCC66;
+  border-color: #FFCC66;
+  color: black;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -306,7 +307,7 @@ section {
   /* flex-direction: column; */
 }
 
-.places { height: 100%; }
+.places { height: 100%; width: 66.66%; }
 
 /* #contact {
   background-image: url("../img/join.jpg");
@@ -321,6 +322,11 @@ section {
   align-items: center;
 }
 
+#services {
+  background-image: url("../img/background_transparent.png");
+  background-size: cover;
+}
+
 .howitworks-icon {
   width: 10rem;
   height: 10rem;
@@ -328,7 +334,7 @@ section {
 
 .howitworks-title {
   font-size: 2rem;
-  border-right: 2px solid #B40E5A;
+  border-right: 2px solid #FFCC66;
   height: 20rem;
   display: flex;
   align-items: center;
@@ -356,7 +362,7 @@ section {
 
 
 .contect-photo {
-  height: 100%;
+  height: auto;
   width: 40%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('../img/contact.jpg') no-repeat;
   background-size: cover;
@@ -392,7 +398,7 @@ section {
 }
 
 .contact-images {
-  width: 60%;
+  width: 33%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -420,6 +426,7 @@ section {
   left: 5%;
   z-index: 1031;
   display: none;
+  color: black;
 }
 
 #module-obyvak {
@@ -483,9 +490,9 @@ section {
 .yourplace-modal p {
   text-align: center;
   text-transform: uppercase;
-  font-size: 3.1em;
+  font-size: 2em;
   margin: 0 18rem;
-  line-height: 7rem;
+  line-height: 3rem;
   font-weight: bolder;
 }
 
@@ -510,20 +517,115 @@ html {
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif; !important;
   letter-spacing: 1px;
+  background-color: #005c5a;
+  color: white
 }
 
 #facebook {
   background-color: #4b86fb;
   border-radius: 1000px;
+  height: 70px;
+  width: 70px;
 }
-
 
 #instagram {
   background-color: #ffcc66;
   border-radius: 1000px;
+  height: 70px;
+  width: 70px;
 }
 
 #mail {
-  background-color: #b40e5a;
+  background-color: #B40E5A;
   border-radius: 1000px;
+  height: 70px;
+  width: 70px;
+}
+#portfolio {
+  width: 100%;
+  display: block;
+  height: initial;
+}
+
+.patreon {
+
+}
+
+#portfolio-container {
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.places-senior {
+  width: 33.3%;
+  background-image: url("../img/senior.jpg");
+  background-size: cover;
+}
+
+.places-senior:hover .senior-overlay {
+  visibility: visible;
+}
+
+.zarit {
+  height: 90%;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/background_transparent.png");
+  background-size: cover;
+  align-items: center;
+  font-family: 'Parisienne', cursive;
+}
+
+.zarit h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+#contact {
+  height: initial;
+}
+
+.brand-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: -7px;
+  right: 40%;
+}
+
+.mobile {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mobile img {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+.mobile p {
+  width: 90%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.no-mobile { display: block; width: 100%; height: 100%; }
+
+@media (max-width: 992px) {
+  .no-mobile { display: none; }
+  .mobile { display: flex; }
+  .body { overflow: hidden; }
 }
