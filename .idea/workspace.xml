@@ -4,23 +4,15 @@
     <list default="true" id="31b84960-7890-4e17-824a-3b7b2d96b19e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/IMG_0832.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0832.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/POzadi kytky_vodoznak.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background_light.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/background_transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background_transparent.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/care.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/care.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/care.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/close.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/community.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/community.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/community.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/contact.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/events.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/facebook.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/funding.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/funding.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/granny.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/granny.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/holki.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/holki.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/join.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/lessons.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/lessons.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/logo-min.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo-min.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
@@ -28,22 +20,9 @@
       <change beforePath="$PROJECT_DIR$/img/obyvak.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/obyvak.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/off.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/off.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/open.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/open.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/fullsize/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/fullsize/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/fullsize/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/fullsize/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/fullsize/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/fullsize/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/road.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sapa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sapa.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/senior.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/senior.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/visit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/visit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/visit.svg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            <state relative-caret-position="40">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
                 <element signature="e#3154#3160#0" expanded="true" />
                 <element signature="e#3893#3899#0" expanded="true" />
@@ -82,10 +61,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/timeline.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="22" lean-forward="true" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/creative.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="325" column="43" selection-start-line="325" selection-start-column="43" selection-end-line="325" selection-end-column="43" />
+            <state relative-caret-position="148">
+              <caret line="383" column="14" lean-forward="true" selection-end-line="631" />
             </state>
           </provider>
         </entry>
@@ -103,8 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>href=</find>
-      <find>btn-primary</find>
       <find>col-lg-4</find>
       <find>container</find>
       <find>places</find>
@@ -133,6 +119,8 @@
       <find>proto ná</find>
       <find>u tá</find>
       <find>background_l</find>
+      <find>source s</find>
+      <find>border-b</find>
     </findStrings>
     <replaceStrings>
       <replace>#B40E5A</replace>
@@ -148,8 +136,8 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/js/uncreative.js" />
-        <option value="$PROJECT_DIR$/css/timeline.css" />
         <option value="$PROJECT_DIR$/img/logo-small.svg" />
+        <option value="$PROJECT_DIR$/css/timeline.css" />
         <option value="$PROJECT_DIR$/css/creative.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -243,7 +231,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.44035533" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.44035533" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -286,13 +274,6 @@
     <entry file="file://$PROJECT_DIR$/img/header.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/timeline.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/holki.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -317,15 +298,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/creative.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="325" column="43" selection-start-line="325" selection-start-column="43" selection-end-line="325" selection-end-column="43" />
+        <state relative-caret-position="148">
+          <caret line="383" column="14" lean-forward="true" selection-end-line="631" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/timeline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="22" lean-forward="true" selection-end-line="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        <state relative-caret-position="40">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="e#3154#3160#0" expanded="true" />
             <element signature="e#3893#3899#0" expanded="true" />
