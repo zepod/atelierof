@@ -394,7 +394,7 @@ section {
 .contect-content p {
   width: 50%;
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .contact-images {
@@ -628,4 +628,13 @@ html {
   .no-mobile { display: none; }
   .mobile { display: flex; }
   .body { overflow: hidden; }
+}
+
+.contact-info {
+  margin-bottom: 2em;
+  font-style: italic;
+  padding: 5px 15px;
+  font-size: 0.9em;
+  opacity: 0.8;
+  text-align: center;
 }
