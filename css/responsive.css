@@ -2,6 +2,7 @@
 @media only screen and (max-width: 40em) {
     body {
         width: 100%;
+        font-size: 12px;
     }
     .container {
         width: 100%;
@@ -19,6 +20,15 @@
         width: 33%;
         height: auto;
     }
+    .howitworks-title {
+        padding: 0px 1em;
+        width: 80%;
+        height: 4em;
+        margin-bottom: 2em;
+        border: none;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
     .contect-photo {
         width: 100%;
         height: auto;
@@ -28,6 +38,8 @@
     }
     .contect-content {
         width: 100%;
+        padding: 4em 0rem;
+        margin: 7em 0em;
     }
     .places {
         width: 100%;
@@ -42,5 +54,27 @@
     }
     #timeline {
         display: none;
+    }
+    .zarit {
+        transform: scale(0.7);
+    }
+    .contect-content h1 {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .contect-content p {
+        width: 70%;
+    }
+    .yourplace-modal p {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 0 3rem;
+        line-height: 34px;
+        font-weight: bolder;
+    }
+    .portfolio-box .portfolio-box-caption {
+        opacity: 1;
     }
 }
