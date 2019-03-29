@@ -287,6 +287,8 @@ header.masthead p {
 
 .main-logo {
   width: 30rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .landing-text {
@@ -303,18 +305,9 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* flex-direction: column; */
 }
 
 .places { height: 100%; width: 66.66%; }
-
-/* #contact {
-  background-image: url("../img/join.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
 
 .howitworks {
   display: flex;
@@ -330,6 +323,7 @@ section {
 .howitworks-icon {
   width: 10rem;
   height: 10rem;
+  max-width: 100%;
 }
 
 .howitworks-title {
@@ -348,6 +342,7 @@ section {
 
 .howitworks-columns {
   display: flex;
+  align-items: flex-start;
   width: 100%;
   margin: 15px 0px;
   justify-content: space-around;
@@ -598,36 +593,6 @@ html {
   position: absolute;
   top: -7px;
   right: 40%;
-}
-
-.mobile {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 1%;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.mobile img {
-  width: 90%;
-  margin-bottom: 2rem;
-}
-.mobile p {
-  width: 90%;
-  text-align: center;
-  font-size: 0.8rem;
-}
-
-.no-mobile { display: block; width: 100%; height: 100%; }
-
-@media (max-width: 992px) {
-  .no-mobile { display: none; }
-  .mobile { display: flex; }
-  .body { overflow: hidden; }
 }
 
 .contact-info {

@@ -1,0 +1,46 @@
+
+@media only screen and (max-width: 40em) {
+    body {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .howitworks {
+        flex-direction: column;
+    }
+    .howitworks-rows {
+        margin: 0px;
+    }
+    .howitworks-icon {
+        width: 33%;
+        height: auto;
+    }
+    .contect-photo {
+        width: 100%;
+        height: auto;
+    }
+    .contact-container {
+        display: block;
+    }
+    .contect-content {
+        width: 100%;
+    }
+    .places {
+        width: 100%;
+    }
+    #portfolio-container {
+        flex-direction: column;
+    }
+    .places-senior {
+        padding-bottom: 65%;
+        background-position: center center;
+        width: 100%;
+    }
+    #timeline {
+        display: none;
+    }
+}
