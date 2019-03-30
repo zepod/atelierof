@@ -607,3 +607,7 @@ html {
 .mobile {
   display: none;
 }
+
+#timeline .no-mobile {
+    display: flex;
+}

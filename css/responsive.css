@@ -144,4 +144,20 @@
         height: 100%;
         background-color: rgba(0, 0, 0, 0.3);
     }
+    .bottom-buttom {
+        position: fixed;
+        width: 5em;
+        height: 5em;
+        right: 10%;
+        bottom: 5%;
+    }
+    .no-mobile {
+        display: none !important;
+    }
+    .yourplace-modal {
+        background-position: center;
+    }
+    #module-road {
+        background-position: left;
+    }
 }
